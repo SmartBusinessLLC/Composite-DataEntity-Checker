@@ -28,4 +28,4 @@ Composite DataEntity Checker is a D365FO Visual Studio addin that provides user 
 
 ![Check Composite Data Entity](https://raw.githubusercontent.com/SmartBusinessLLC/Composite-DataEntity-Checker/master/Images/5.png)
 
-<i>The result shows that this DataEntity hase missing relations between DataSources</i>
+<i>The result shows that this DataEntity has missing relations between DataSources</i>
