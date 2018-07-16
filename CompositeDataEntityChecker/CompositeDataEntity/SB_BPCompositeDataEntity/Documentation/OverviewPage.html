@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dynamics 365 Unified Operations Best Practice template</title>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 90%;
+        }
+        .auto-style2
+        {
+            width: 120px;
+        }
+        .td-top	{ vertical-align: top; }
+
+        table.mytable1 td { padding: 10px 10px 10px 10px; }
+    </style>
+</head>
+<body>
+
+  <font face="Segoe-UI">
+  <font face="Segoe-UI" size='6'>Dynamics 365 Unified Operations Best Practice rule starter kit</font><p/>
+
+    This starter kit contains what you need to create best practice rules for the Dynamics 365 Unified Operations platform.
+    In particular, you may use this starter kit as a starting point for writing:<br />
+
+    <table class="auto-style1 mytable1" >
+        <tr>
+            <td class="auto-style2 td-top">Metadata rules</td>
+            <td>This template allows you to author rules that apply to metadata artifacts, like menus, menuitems etc.&nbsp; You would typically use LINQ to query the object graphs that represent the metadata.</td>
+        </tr>
+        <tr>
+            <td class="auto-style2 td-top">X++ Code rules</td>
+            <td>This template allows you to author rules that apply to code artifacts, like classes and forms. You typically do this by providing a subclass of the ASTSweeper class, overriding the methods that pertain to the situation you want to diagnose. </td>
+        </tr>
+    </table>
+
+        The examples shown are standalone checks that actually work: The rules are not terribly interesting in their own right;
+        they are designed to serve as good starting points for your own rules.
+
+    <p>
+        When you have created your own rules, you can import them into Dynamics 365 for Operations by using the Best Practice dialog from Visual Studio.
+    </p>
+    <p>
+        You will find a more detailed description of the concepts and processes that you will need to build rules in this
+        <a href="https://ax.help.dynamics.com/en/wiki/authoring-best-practice-rules/">wiki entry</a>.
+    </p>
+  </font>
+
+</body>
+</html>
