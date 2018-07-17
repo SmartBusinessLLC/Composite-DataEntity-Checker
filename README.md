@@ -1,7 +1,5 @@
 ![Smart Bird CDEC](https://raw.githubusercontent.com/SmartBusinessLLC/Composite-DataEntity-Checker/master/Images/CDECSmartBird.png)
 
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
-
 # Composite-DataEntity-Checker
 Composite DataEntity Checker is a D365FO Visual Studio addin that provides user with functionality to check Data Entity if it was configured accordingly to Microsoft Best Practices
 # What Composite DataEntity Checker can check?
